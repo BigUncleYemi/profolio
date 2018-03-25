@@ -1,0 +1,41 @@
+{
+  "name": "profolio-gen",
+  "version": "1.0.0",
+  "description": "a profolio generator and manager",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha ",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigUncleYemi/profolio.git"
+  },
+  "keywords": [
+    "web",
+    "app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.0",
+    "mongoose": "^5.0.7",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/BigUncleYemi/profolio/issues"
+  },
+  "homepage": "https://github.com/BigUncleYemi/profolio#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
